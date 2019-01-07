@@ -219,7 +219,7 @@ class DisplayHandler():
 
     def drawNetworkStatus(self, font):
         
-        if self._ip and self._defaultAdapter == const._cfg_entry_Adapter_WLAN:
+        if self.wifi.getStatistics() <> None and self._defaultAdapter == const._cfg_entry_Adapter_WLAN:
             if self.wifi.getStatistics()[1].getSignallevel() <= 8:
                 self.draw.text((95,0), str(self.wifi.getStatistics()[1].getSignallevel())+self._textConfig.get(const._cfg_section_unit,const._cfg_entry_SignalStrength_Unit), font=font, fill=(128))
 
