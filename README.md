@@ -1,4 +1,4 @@
-# weather_v2
+# weather_v2 - the project is still in development
 
 The project is an python raspi implemntation to collect several weather information. These informations are written in a remote database. In case the remote database is not available all data is stored in a local sqlite database. If the remote database is available again all local data are transferred to the remote database.
 The weather station is equiped with the following sensor
