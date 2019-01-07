@@ -68,7 +68,7 @@ class Configuration():
     def setSensorConfiguratuion(self):
         self._sensorList = []
         _sensor = None
-        
+        # loop over the configured sensors
         for section in self._sensorConfig.sections():
             _sensor = Sensor(self._sensorConfig)
             _sensor.setConfiguration(section)
