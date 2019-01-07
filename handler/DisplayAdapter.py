@@ -4,7 +4,7 @@
 import configuration.constants as const
 from PIL import Image, ImageDraw, ImageFont
 import Adafruit_GPIO.SPI as SPI
-import lib.Adafruit_SSD1306 as Adafruit_SSD1306
+import Adafruit_SSD1306 as Adafruit_SSD1306
 #from lib.handler.SensorHandler import SensorHandler
 from lib.wifi.iwlibs import Wireless
 import ConfigParser

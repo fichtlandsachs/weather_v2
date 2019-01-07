@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from sensors.Sensor import Sensor
 import Adafruit_DHT
-import lib.Adafruit_BMP.BMP085 as BMP085
+import Adafruit_BMP.BMP085 as BMP085
 
 
 class TempSensor(Sensor):
