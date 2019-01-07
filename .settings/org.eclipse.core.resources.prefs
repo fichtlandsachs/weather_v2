@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//handler/DisplayAdapter.py=utf-8
+encoding//handler/SystemState.py=utf-8
+encoding//log/WeatherLogger.py=utf-8
+encoding//sensors/Sensor.py=utf-8
+encoding/weather.py=utf-8
